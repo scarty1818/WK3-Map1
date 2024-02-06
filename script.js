@@ -41,7 +41,7 @@ require([
   var view = new SceneView({
     container: "viewDiv",
     map: scene,
-    viewingMode: "local", // Changed from "global" to "local"
+    viewingMode: "global", // Changed from "global" to "local"
     camera: camera,
     environment: {
       lighting: {
